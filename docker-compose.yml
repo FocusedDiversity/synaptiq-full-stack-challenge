@@ -1,4 +1,4 @@
-version: "3.4"
+version: "3.8"
 services:
   frontend:
     build: ./frontend
@@ -34,6 +34,8 @@ services:
       - 5432:5432
     volumes:
       - ./data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready"]
 
   flyway:
     image: flyway/flyway:latest
@@ -45,4 +47,5 @@ services:
       - FLYWAY_USER=db_user
       - FLYWAY_PASSWORD=super_awesome_password
     depends_on:
-      - database
+      database:
+        condition: service_healthy
