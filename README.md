@@ -53,3 +53,5 @@ You're welcome to share on GitHub or sharing a zip'd version of the application
 - [ ] connect the frontend and the backend
 - [ ] add more tests
 - [ ] have the frontend and backend share TypeScript types
+- [ ] add Hasura
+- [ ] add authentication
