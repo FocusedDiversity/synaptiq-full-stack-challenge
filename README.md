@@ -5,9 +5,10 @@
 ## Getting Set Up
 
 Ensure Docker is installed: https://docs.docker.com/desktop/install/mac-install/
+
 `$ docker-compose up`
 
-The idea is to grab either the fronted or the backend and get the tests passing.
+The idea is to select either the fronted or the backend and get the tests passing.
 The expectation is that you should set a timer for an hour and get done what you can.
 You are welcome to have fun and complete bonus tasks or add your own.
 
@@ -27,7 +28,7 @@ You're welcome to share on GitHub or sharing a zip'd version of the application
 ### Get Cypress Passing
 
 1. `$ cd frontend`
-2. `$ npx cypress open --e2e`
+2. `$ npm run e2e`
 
 ### Bonus Tasks
 
