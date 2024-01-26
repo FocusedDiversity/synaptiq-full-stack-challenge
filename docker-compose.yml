@@ -32,3 +32,15 @@ services:
       - 5432:5432
     volumes:
       - ./data:/var/lib/postgresql/data
+
+  flyway:
+    image: flyway/flyway:latest
+    command: migrate
+    volumes:
+      - ./flyway/sql:/flyway/sql
+    environment:
+      - FLYWAY_URL=jdbc:postgresql://database:5432/database
+      - FLYWAY_USER=db_user
+      - FLYWAY_PASSWORD=super_awesome_password
+    depends_on:
+      - database
