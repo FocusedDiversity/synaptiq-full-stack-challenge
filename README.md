@@ -1,6 +1,6 @@
 # Code Challenge
 
-> Call-out: this has been tested on M2 MacBook Air - if the Docker environment doesn't work for you you're welcome to debug it but go ahead and just work on the code outside of the Docker environment.
+> Call-out: this has been tested on M2 MacBook Air and Windows 11 - if the Docker environment doesn't work for you you're welcome to debug it but go ahead and just work on the code outside of the Docker environment.
 
 ## Getting Set Up
 
