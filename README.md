@@ -12,6 +12,14 @@ The idea is to select either the fronted or the backend and get the tests passin
 The expectation is that you should set a timer for an hour and get done what you can.
 You are welcome to have fun and complete bonus tasks or add your own.
 
+## What to do
+
+There's a series of failing tests for both the frontend (in Cypress and Jest) that are failing. This is kinda pure TDD - the goal is to get Cypress test passing for the frontend and/or the backend Jest tests passing.
+
+You're making a TODO MVC app - something simple that adds tasks, completes tasks, deletes tasks, etc.
+
+Have fun with it - show how you'd build this out and try not to get stuck on the "setup" (thus why we created the boilerplate for you)
+
 ## How we evaluate
 
 Our code challenge is a conversation starter. It's used to talk through your thought process.
